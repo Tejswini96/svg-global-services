@@ -19,7 +19,7 @@ a { text-decoration: none; }
 .navbar-nav { gap: 7px; }
 .nav-link { font-size: 13px; font-weight: 700; color: #536273; padding: 11px 13px !important; }
 .nav-link:hover,.nav-link.active { color: var(--blue); }
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show { color: var(--blue); }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show { color: var(--blue) !important; }
 .btn { border-radius: 4px; font-weight: 700; font-size: 13px; padding: 13px 21px; transition: .25s ease; }
 .btn-primary-custom { color: #fff; background: var(--blue); border: 1px solid var(--blue); }
 .btn-primary-custom:hover { background: var(--navy); border-color: var(--navy); color: #fff; transform: translateY(-2px); }
