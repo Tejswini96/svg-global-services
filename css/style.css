@@ -151,7 +151,7 @@ a { text-decoration: none; }
 
 
 /* Reference-inspired corporate structure and SVG blue/gold identity */
-.brand-logo { display:block; width:350px; max-height:90px; object-fit:contain; object-position:left center; }
+.brand-logo { display:block; width:250px; max-height:70px; object-fit:contain; object-position:left center; }
 .footer-logo { width:220px; max-height:65px; filter:brightness(0) invert(1); }
 .industry-card,.why-card { height:100%; padding:28px 22px; background:#fff; border:1px solid var(--line); transition:.25s ease; }
 .industry-card:hover,.why-card:hover { transform:translateY(-5px); border-color:#d7c27b; box-shadow:0 14px 35px rgba(10,34,54,.07); }
