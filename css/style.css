@@ -144,14 +144,14 @@ a { text-decoration: none; }
 }
 
 /* SVG Global Services brand logo */
-.brand-logo { display:block; width:200px; height:60px; object-fit:contain; object-position:left; }
+.brand-logo { display:block; width:200px; max-height:70px; object-fit:contain; object-position:left;}
 .footer-logo { background:#fff; border-radius:3px; padding:4px 9px; width:190px; height:88px; object-position:center; }
 @media (max-width:991.98px) { .brand-logo { width:158px; height:60px; } }
 @media (max-width:575.98px) { .brand-logo { width:145px; height:54px; } }
 
 
 /* Reference-inspired corporate structure and SVG blue/gold identity */
-.brand-logo { display:block; width:200px; max-height:60px; object-fit:contain; object-position:left center; }
+.brand-logo { display:block; width:200px; max-height:70px; object-fit:contain; object-position:left;}
 .footer-logo { width:220px; max-height:65px; filter:brightness(0) invert(1); }
 .industry-card,.why-card { height:100%; padding:28px 22px; background:#fff; border:1px solid var(--line); transition:.25s ease; }
 .industry-card:hover,.why-card:hover { transform:translateY(-5px); border-color:#d7c27b; box-shadow:0 14px 35px rgba(10,34,54,.07); }
